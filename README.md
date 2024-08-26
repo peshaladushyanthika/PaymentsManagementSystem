@@ -8,7 +8,7 @@
 - Git (optional)
 
 ## Installation Steps
-1. Clone the Repository: `git clone https://github.com/yourusername/your-repo-name.git`
+1. Clone the Repository: `git clone https://github.com/yourusername/your-repo-name.git` , navigate to
 `cd your-repo-name`
 2. Install Dependencies: `composer install`
 3. Set Up Environment Variables:
