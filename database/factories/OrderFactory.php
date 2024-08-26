@@ -21,7 +21,7 @@ class OrderFactory extends Factory
     public function definition()
     {
         return [
-           'user_id' => User::factory(), // Assumes you have a UserFactory
+           'user_id' => User::factory(),
             'order_date' => $this->faker->dateTimeThisMonth(), // Generates a random date and time
             'status' => $this->faker->randomElement(['pending', 'completed', 'cancelled']),
             'total_amount' => $this->faker->randomFloat(2, 50, 500),
