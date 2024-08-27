@@ -11,8 +11,8 @@ user_id,user_name,user_email,order_id,order_number,order_total_amount,order_crea
 3,Bob Johnson,bobjohnson@example.com,6,ORD006,200,2024-08-08 20:00:00,10,200,Bank Transfer,2024-08-14,2024-08-14 09:00:00
 3,Bob Johnson,bobjohnson@example.com,7,ORD007,350,2024-08-09 21:00:00,11,150,Credit Card,2024-08-15,2024-08-15 10:00:00
 3,Bob Johnson,bobjohnson@example.com,7,ORD007,350,2024-08-09 21:00:00,12,200,PayPal,2024-08-16,2024-08-16 11:00:00
-4,Alice Davis,alicedavis@example.com,8,ORD008,300,2024-08-10 22:00:00,13,300,Bank Transfer,2024-08-17,2024-08-17 12:00:00
+4,Alice Davis,alicedavis@example.com,8,ORD008,300,2024-08-10 22:00:00,13,300,bank_transfer,2024-08-17,2024-08-17 12:00:00
 4,Alice Davis,alicedavis@example.com,9,ORD009,150,2024-08-11 23:00:00,14,100,Credit Card,2024-08-18,2024-08-18 13:00:00
-4,Alice Davis,alicedavis@example.com,9,ORD009,150,2024-08-11 23:00:00,15,50,PayPal,2024-08-19,2024-08-19 14:00:00
+4,Alice Davis,alicedavis@example.com,9,ORD009,150,2024-08-11 23:00:00,15,50,paypal,2024-08-19,2024-08-19 14:00:00
 5,Charlie Brown,charliebrown@example.com,10,ORD010,250,2024-08-12 00:00:00,16,250,Credit Card,2024-08-21,2024-08-21 15:00:00
 5,Charlie Brown,charliebrown@example.com,10,ORD010,250,2024-08-12 00:00:00,17,100,PayPal,2024-08-22,2024-08-22 16:00:00
