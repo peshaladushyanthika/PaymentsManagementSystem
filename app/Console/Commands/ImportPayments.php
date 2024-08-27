@@ -46,7 +46,10 @@ class ImportPayments extends Command
             // Map the CSV columns to database fields
             $data = [
                 'user_id' => $row['user_id'],
+                'user_name' => $row['user_name'],
+                'user_email' => $row['user_email'],
                 'order_id' => $row['order_id'],  // Map the actual order ID field
+                'total_amount' => $row['order_total_amount'],
                 'payment_id' => $row['payment_id'],
                 'payment_amount' => $row['payment_amount'],
                 'payment_method' => $row['payment_method'],
@@ -55,7 +58,10 @@ class ImportPayments extends Command
 
             $validator = Validator::make($data, [
                 'user_id' => 'required|exists:users,id',
+                'user_name' => 'required|string',
+                'user_email' => 'required|email',
                 'order_id' => 'required|exists:orders,id',
+                'total_amount' => 'required|numeric:orders,total_amount',
                 'payment_id' => 'required|numeric',
                 'payment_amount' => 'required|numeric',
                 'payment_method' => 'required|in:credit_card,paypal,bank_transfer,cash',

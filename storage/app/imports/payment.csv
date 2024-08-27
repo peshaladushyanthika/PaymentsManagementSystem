@@ -3,7 +3,7 @@ user_id,user_name,user_email,order_id,order_number,order_total_amount,order_crea
 1,John Doe,johndoe@example.com,1,ORD001,150,2024-08-03 15:00:00,2,50,paypal,2024-08-03,2024-08-03 12:00:00
 1,John Doe,johndoe@example.com,2,ORD002,200,2024-08-04 16:00:00,3,200,credit_card,2024-08-05,2024-08-05 14:00:00
 2,Jane Smith,janesmith@example.com,3,ORD003,325,2024-08-05 17:00:00,4,75,bank_transfer,2024-08-07,2024-08-07 9:00:00
-2,Jane Smith,janesmith@example.com,3,ORD003,325,2024-08-05 17:00:00,5,100,Credit Card,2024-08-09,2024-08-09 11:00:00
+2,Jane Smith,janesmith@example.com,3,ORD003,325,2024-08-05 17:00:00,5,100,credit_card,2024-08-09,2024-08-09 11:00:00
 2,Jane Smith,janesmith@example.com,3,ORD003,325,2024-08-05 17:00:00,6,150,paypal,2024-08-10,2024-08-10 13:00:00
 2,Jane Smith,janesmith@example.com,4,ORD004,200,2024-08-06 18:00:00,7,120,Bank Transfer,2024-08-11,2024-08-11 14:00:00
 2,Jane Smith,janesmith@example.com,4,ORD004,200,2024-08-06 18:00:00,8,80,Credit Card,2024-08-12,2024-08-12 16:00:00
